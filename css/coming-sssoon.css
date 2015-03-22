@@ -7,7 +7,10 @@ Made with love by Creative Tim (http://www.creative-tim.com)
 @font-face {
   font-family: 'Olkhon Web';
   src: 
-    url('../olkhon.woff2') format('woff2');
+    url('../fonts/olkhon.woff2') format('woff2'),
+		url('../fonts/olkhon.woff') format('woff'),
+		url('../fonts/olkhon.ttf') format('ttf');
+		
 }
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic-ext);
@@ -938,6 +941,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 .main {
-	background: url('../images/interior.png') fixed;
+	background: url('../images/interior.jpg') fixed;
 	background-size: cover;
 }
